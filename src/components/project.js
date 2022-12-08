@@ -45,12 +45,9 @@ const [agro,setAgro] = useState(["Built an App using Flutter and Firebase",
             <Heading>Projects</Heading>
             <br />
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-                <Single title="An Intrusion Detection System based on
-pseudo-signature generation using RNN-LSTM" desc={ids} link="https://github.com" />
-                <Single title="Implementation of Encrypted File Transfer System
-Using TCP
-" desc={tcp} link="https://github.com/ShyamSunder149/Secure-file-transfer-using-TCP" />
-                <Single title="StudentVerse App" desc={stu} link="https://github.com" />
+                <Single title="An Intrusion Detection System based on pseudo-signature generation using RNN-LSTM" desc={ids} link="https://github.com/ShyamSunder149/Intrusion-detection-system-model-using-RNN-LSTM" />
+                <Single title="Implementation of Encrypted File Transfer System Using TCP" desc={tcp} link="https://github.com/ShyamSunder149/Secure-file-transfer-using-TCP" />
+                <Single title="StudentVerse App" desc={stu} link="https://play.google.com/store/apps/details?id=com.dcs.homeversity" />
                 <Single title="Agromart App" desc={agro} link="https://github.com/ShyamSunder149/SolutionChallenge2021" />
             </SimpleGrid>
         </Container>
