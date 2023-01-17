@@ -69,7 +69,7 @@ const Academic = () => {
         <Container maxW={'container.lg'} py={10}>
             <Heading>Academic Activities</Heading>
             <br />
-            <VStack spacing={8} align='left'>
+            <VStack spacing={10} align='left'>
                 <Profile title="Team 1nf1n1ty" pos="CTF Player | Cybersecurity Researcher" description={infinity} link="https://media-exp1.licdn.com/dms/image/C4E0BAQGLwsgfcVLdiQ/company-logo_200_200/0/1635874867694?e=1677715200&v=beta&t=WgsllkzK2Z1ghXXybBxChVy-8hh19zIwaQXkfS20ido" />
                 <Profile title="Developer Community SASTRA" pos="Head of Web Dev" description={dcs} link="https://media-exp1.licdn.com/dms/image/C560BAQEHfIMuMVGJrA/company-logo_200_200/0/1640415645085?e=1677715200&v=beta&t=AIRK2R5qo-kdx-eDoiqXIl5fZs_kjWdnLmHSci44zgM" />
                 <Profile title="OWASP SASTRA University" pos="Chapter Lead" description={owasp} link="https://media-exp1.licdn.com/dms/image/C560BAQFsR4fLGnnq3g/company-logo_200_200/0/1648743694045?e=1677715200&v=beta&t=-_y2QgyTtOMKBliQpX3UrXaAyfwZcPx3DmLC7TSLvxg" />

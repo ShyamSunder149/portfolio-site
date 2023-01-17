@@ -17,7 +17,7 @@ const Social = () => {
                         </Link>
                     
                         <Link href='https://www.github.com/ShyamSunder149'>
-                    <IconButton icon={<FaGithub />}  size='lg'/>
+                    <IconButton icon={<FaGithub />} size='lg'/>
                         </Link>
                 </HStack>
             </Flex>
