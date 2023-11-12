@@ -11,12 +11,12 @@ function Profile({ title, pos, description, link }) {
             variant='outline'
         >
             <HStack spacing={8}>
-                <Image
+                {/* <Image
                     objectFit='cover'
                     maxW={{ base: '100%', sm: '200px' }}
                     src={link} alt='Caffe Latte' borderRadius={10
                     }
-                />
+                /> */}
 
                 <Stack spacing={3}>
                     <CardBody>
@@ -37,11 +37,11 @@ function Profile({ title, pos, description, link }) {
 const Experience = () => {
     const { useState } = React;
     const [smoose, setSmoose] = useState(
-        ["Worked on the FrontEnd part of Static and Dynamic Web Applications of the company",
-        "Gained experience on Hosting websites",
+        ["Implemented the UI forthe Customer App, Admin App and Branding site ensuring a seamless and user-friendly experience",
+        "Actively contributed to Design aspects of the UIs during my internship",
             ]);
     const [zoho,setZoho] = useState(
-        ["Part of eDiscovery Dev team - Data ETL/Zoho Desk"]
+        ["Part of eDiscovery Dev Team | Data ETL | Zoho Desk","Worked on the Enhancement fixes of tools which are used internally to carry out and support DC Migrations. Enhancements includes Mail handling, Error Handling and Implementing pre check and post check routines for DC Migration using Java","Worked on the Backup feature which enables the customer to take the backup of data either peridoically or once in a month with the data in the given range. Supports all modules present in the product."]
     )
     
     return (
@@ -51,8 +51,8 @@ const Experience = () => {
             <VStack spacing={10} align='left'>
                 
             
-            <Profile title="Zoho" pos="Project Trainee" duration="Jan 2023 - Present"description={zoho} link="https://media.licdn.com/dms/image/C560BAQH-TYqVPOAI8g/company-logo_200_200/0/1672583365986?e=1681948800&v=beta&t=zLTkgH9TVqAEQF73hK3lpA6YdxoJfK4VuUNTVA0R-sI" />
-            <Profile title="Smoose" pos="Intern" description={smoose} duration="Nov 2020 - Dec 2020" link="https://media-exp1.licdn.com/dms/image/C4D03AQE5ZjOFuHDZaA/profile-displayphoto-shrink_400_400/0/1622372473648?e=1675296000&v=beta&t=x7Cae94bD5umVUmDH3g3rIUlYLZ_CB5JJhf6erXyra4" />
+            <Profile title="Zoho" pos="Member Techinal Staff - 10 months" duration="Jan 2023 - Present"description={zoho} link="https://media.licdn.com/dms/image/C560BAQH-TYqVPOAI8g/company-logo_200_200/0/1672583365986?e=1681948800&v=beta&t=zLTkgH9TVqAEQF73hK3lpA6YdxoJfK4VuUNTVA0R-sI" />
+            <Profile title="Smoose" pos="Intern - 2 months" description={smoose} duration="Nov 2020 - Dec 2020" link="https://media-exp1.licdn.com/dms/image/C4D03AQE5ZjOFuHDZaA/profile-displayphoto-shrink_400_400/0/1622372473648?e=1675296000&v=beta&t=x7Cae94bD5umVUmDH3g3rIUlYLZ_CB5JJhf6erXyra4" />
             </VStack>
 
         </Container>

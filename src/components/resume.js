@@ -7,7 +7,7 @@ const Resume = () => {
             
             <Heading>Resume</Heading>
             <br/>
-            <Link href="https://drive.google.com/file/d/1eaIa4Rw76GFEuMV0pL1cQJ0HF7fOJLOt/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1DlP9dhP-ftq4rj7D9xs62o1DBRj6jlhu/view?usp=sharing">
             <Button colorScheme='teal' variant='outline'>
     Get my Resume here ! <ExternalLinkIcon mx='2px' />
   </Button>

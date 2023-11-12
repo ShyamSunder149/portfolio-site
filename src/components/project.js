@@ -11,11 +11,11 @@ function Single({ title, desc, link }) {
                 </LinkOverlay>
             </Heading>
             <Text mb='3'>
-                <UnorderedList>
+                
                     {desc.map((index, value) => {
-                        return <li key={value}>{index}</li>
+                        return <p key={value}>{index}</p>
                     })}
-                </UnorderedList>
+              
             </Text>
             <Link href={link}>
             <Button colorScheme='teal' variant='outline'>
@@ -28,18 +28,10 @@ function Single({ title, desc, link }) {
 
 const Project = () => {
     const { useState } = React;
-    const [ids, setIds] = useState(["Built an IDS using RNN-LSTM based model",
-        "Used Metasploit to generate the dataset of both encoded and normal payloads",
-        "Integrated IDS with the server using lua script"]);
-    const [tcp, setTcp] = useState(["Built a CLI based application for the User side",
-    "Used base64 encoded input to encrypt data using RSA algorithm","Built using socket programming in python and Implemented a server side logging system"]);
-    const [stu, setStu] = useState(["Built 3 APIs on FastAPI, NodeJs and php according to requirements",
-"Gained experience on SDLC life cycle and Agile Methodology",
-"Hosted and managed server side issues using SASTRA University server"])
-const [agro,setAgro] = useState(["Built an App using Flutter and Firebase",
-"App used to connect farmers with buyers (virtual market)",
-"Designed UI/UX using Figma for the app",
-"Submitted as an entry for Google Solutions Challenge 2020"])
+    const [ids, setIds] = useState(["Developed an Intrusion Detection System (IDS) with an advanced RNN-LSTM model, showcasing expertise in machine learning and cybersecurity. Used Metasploit for diverse payload datasets and seamlessly integrated the IDS with the server using Lua scripts for robust security measures"]);
+    const [tcp, setTcp] = useState(["Built a secure CLI application with advanced encryption (base64 and RSA) for user-side operations. Proficient in Python and socket programming, I implemented a server-side logging system for enhanced performance and monitoring"]);
+    const [stu, setStu] = useState(["Led the backend team of the app, The Official Student App of SASTRA, worked on Backend and DevOps. Applied Agile methodology to meticulously plan and execute projects. Mastered app management amidst fluctuating request volumes currently handling 15k users."])
+const [agro,setAgro] = useState(["Created a Flutter and Firebase-powered app connecting farmers with buyers in a virtual market. Designed seamless UI/UX with Figma. Submitted for the Google Solutions Challenge 2020."])
     return (
         <Container maxW='container.lg' py={10}>
             <Heading>Projects</Heading>

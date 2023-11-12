@@ -4,7 +4,7 @@ import React from 'react';
 
 const Home = () => {
     const { useState } = React;
-    const [words, setWords] = useState(["CTF Player", "Developer", "UnderGrad", "Cybersecurity Researcher"]);
+    const [words, setWords] = useState(["CTF Player", "Passionate Developer", "MTS @ Zoho", "Cybersecurity Researcher"]);
     return (
         <Container py={10}>
             <Center>
