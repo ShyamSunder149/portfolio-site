@@ -1,0 +1,37 @@
+{
+    "project 1" : {
+        "title" : "Project Title",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ipsum in dolor varius viverra eget et ipsum.",
+        "tags" : ["react", "node", "typescript"],
+        "githubLink" : "https://www.google.com",
+        "deploymentLink" : null
+    },
+    "project 2" : {
+        "title" : "Project Title",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ipsum in dolor varius viverra eget et ipsum.",
+        "tags" : ["react", "node", "typescript"],
+        "githubLink" : "https://www.google.com",
+        "deploymentLink" : null
+    },
+    "project 3" : {
+        "title" : "Project Title",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ipsum in dolor varius viverra eget et ipsum.",
+        "tags" : ["react", "node", "typescript"],
+        "githubLink" : "https://https://www.google.com",
+        "deploymentLink" : null
+    },
+    "project 4" : {
+        "title" : "Project Title",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ipsum in dolor varius viverra eget et ipsum.",
+        "tags" : ["react", "node", "typescript"],
+        "githubLink" : "https://www.google.com",
+        "deploymentLink" : null
+    },
+    "project 5" : {
+        "title" : "Project Title",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ipsum in dolor varius viverra eget et ipsum.",
+        "tags" : ["react", "node", "typescript"],
+        "githubLink" : "https://www.google.com",
+        "deploymentLink" : null
+    }
+}
