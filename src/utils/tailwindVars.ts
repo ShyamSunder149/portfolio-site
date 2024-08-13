@@ -1,0 +1,1 @@
+export const headingCss = "text-2xl font-bold leading-7 text-neutral-200 sm:truncate sm:text-3xl sm:tracking-tight"

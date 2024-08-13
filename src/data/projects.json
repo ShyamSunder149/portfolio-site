@@ -1,0 +1,16 @@
+{
+    "project 1" : {
+        "title" : "Spending Calculator",
+        "desc" : "Made a script which scraps google pay export data and categorises my expenses. Can calculate average per month expenses, expenses year wise and export data to csv. Planning to implement some more",
+        "tags" : ["python", "scraping"],
+        "githubLink" : "https://github.com/ShyamSunder149/spending-calculator",
+        "deploymentLink" : null
+    },
+    "project 2" : {
+        "title" : "Transactional In-Memory KV Store",
+        "desc" : "Implmented a KV store in go which works based on transaction with rollback and commit options. Started off with this to learn on how to work with interface structs and LinkedList in go",
+        "tags" : ["Golang"],
+        "githubLink" : "https://github.com/ShyamSunder149/transactional-kvstore",
+        "deploymentLink" : null
+    }
+}
